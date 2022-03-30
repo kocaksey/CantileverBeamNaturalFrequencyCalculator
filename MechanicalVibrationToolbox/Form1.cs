@@ -22,7 +22,8 @@ namespace MechanicalVibrationToolbox
         
         
         private void btnCalculateCant_Click(object sender, EventArgs e)
-        {
+        {   
+            
             double elasticity;
             double inertia;
             double beamLength;
@@ -47,7 +48,6 @@ namespace MechanicalVibrationToolbox
                     ResultArray[j] = fn;
                     j += 1;
                 }
-
                 lbRsCant1.Text = Convert.ToString(ResultArray[0]);
                 lbRsCant2.Text = Convert.ToString(ResultArray[1]);
                 lbRsCant3.Text = Convert.ToString(ResultArray[2]);
@@ -58,7 +58,6 @@ namespace MechanicalVibrationToolbox
                 hz3.Visible = true;
                 hz4.Visible = true;
                 hz5.Visible = true;
-
 
             }
         }
@@ -85,7 +84,6 @@ namespace MechanicalVibrationToolbox
             {
                 e.Handled = true;
             }
-
 
         }
 
@@ -160,7 +158,6 @@ namespace MechanicalVibrationToolbox
                 e.Handled = true;
             }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             txtWCant.Text = "";
