@@ -175,5 +175,6 @@ namespace MechanicalVibrationToolbox
             lbRsCant4.Text = "";
             lbRsCant5.Text = "";
         }
+
     }
 }
